@@ -7,10 +7,28 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-            <header>
-                <nav id="navigation"></nav>
-                <hr>
-            </header>
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <a href="" id="navbar__logo">SigCode Practice
+                    </a>
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a href="/" class="navbar__links"> Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/flashcard.html" class="navbar__links"> FlashCards</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/transcripts.html" class="navbar__links"> Transcripts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <main>
                 
             </main>
@@ -18,5 +36,6 @@
                 <hr>
                 &copy; DevWithDamien
             </footer>
+            <script src="scripts/nav.js"></script>
     </body>
 </html>
