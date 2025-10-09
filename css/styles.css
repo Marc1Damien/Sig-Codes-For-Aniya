@@ -1,0 +1,25 @@
+body {
+    background-color: #fe9faf;
+    color: #000;
+}
+
+header {
+    background-color: #fdcf44;
+}
+
+#navigation li {
+    display: inline;
+    font-size: larger;
+    border: 10px;
+    border-radius: 8px;
+    margin-right: 400px;
+}
+
+#navigation a {
+    color: #000;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
