@@ -3,12 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Wags Rx</title>
+        <title>SigCode Flashcards</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body class="main">
-        <!-- NavBar Section -->
-            <nav class="navbar">
+    <body class="flashcard__body">
+        <nav class="navbar">
                 <div class="navbar__container">
                     <a href="index.html" id="navbar__logo">SigCode Practice
                     </a>
@@ -22,7 +21,7 @@
                             <a href="/" class="navbar__links"> Home</a>
                         </li>
                         <li class="navbar__item">
-                            <a href="flashcards.html" class="navbar__links"> FlashCards</a>
+                            <a href="/flashcards.html" class="navbar__links"> FlashCards</a>
                         </li>
                         <li class="navbar__item">
                             <a href="transcripts.html" class="navbar__links"> Transcripts</a>
@@ -30,26 +29,27 @@
                     </ul>
                 </div>
             </nav>
-            <!-- Main Section-->
-             <div class="main">
-                <div class="main__container">
-                    <div class="main__content">
-                        <h1>PHARMACY TECH CERTIFICATION EXAM</h1>
-                        <h2>LETS PASS</h2>
-                        <p>You Will Be Your Better Self</p>
-                        <form action="flashcards.html" method="get">
-                            <button class="main__btn">Get Started</button>
-                        </form>
+
+        <div class="flashcard__main">
+            <div class="flashcard-container">
+                <h1>FlashCard Quiz</h1>
+                <div id="flashcard" class="flashcard">
+                    <div class="front">
+                        <p id="question">Question is here</p>
                     </div>
-                    <div class="main__img--container">
-                        <img src="images/pic1.svg" alt="pic" id="main__img">
+                    <div class="back">
+                        <p id="answer">Answers</p>
                     </div>
                 </div>
-             </div>
-            <footer class="footer">
-                <hr>
-                &copy; DevWithDamien
-            </footer>
-            <script src="scripts/nav.js"></script>
+                <button class="flashcard__button" id="flip-card">Flip Card</button>
+                <button class="flashcard__button" id="next-card">next-card</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <hr>
+            &copy; DevWithDamien
+        </footer>
+        <script src="scripts/nav.js"></script>
+        <script src="scripts/flashcard.js"></script>
     </body>
 </html>
