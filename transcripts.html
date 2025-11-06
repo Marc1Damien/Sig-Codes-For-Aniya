@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SigCode Transcription Practice</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/transcripts-style.css" />
+</head>
+<body class="main">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="index.html" id="navbar__logo">SigCode Practice</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="flashcards.html" class="navbar__links">FlashCards</a>
+        </li>
+        <li class="navbar__item">
+          <a href="transcripts.html" class="navbar__links active">Practice</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Practice Quiz -->
+  <div class="quiz-container">
+    <h1 style="text-align:center;">Prescription Transcription Quiz</h1>
+    <div id="questionDisplay" style="margin-top:20px; font-size:1.2rem; font-weight:bold;">Loading question...</div>
+    <input type="text" id="answerInput" placeholder="Type your SigCode answer here..." />
+    <div id="feedback" style="margin-top:10px; font-weight:bold;"></div>
+    <button id="nextBtn" style="margin-top:20px; display:none;">Next Question</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <hr />
+    &copy; DevWithDamien
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/nav.js"></script>
+  <script src="scripts/practice.js"></script>
+</body>
+</html>
