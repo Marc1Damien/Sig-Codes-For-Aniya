@@ -159,6 +159,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         {question: "Vomiting", answer: "VOM"},
         {question: "Use 1 vial via nebulizer", answer: "VVN"},
         {question: "While awake", answer: "WA"},
+        {question: "Z-Pack Prescriptions", answer: "ZPK"},
     ];
 
     let currentCard = 0;
